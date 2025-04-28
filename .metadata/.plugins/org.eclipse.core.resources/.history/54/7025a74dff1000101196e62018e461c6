@@ -1,0 +1,34 @@
+package chap05.EX02;
+public class Array2_Definition {
+	public static void main(String[] args) {
+		/*
+		   2차원 정방형 배열  : 행에 대해서과 열의 갯수가 일치 배열 
+		   2차원 비정방형 배열 : 행에 대해서  열의 갯수가  다른 배열 
+		 */
+		
+		//1. 배열 선언 
+		int[][] arr1 = new int[2][3];  // 행의 방의 갯수 : 2, 열의 갯수 : 3 
+		
+		//2. 각 배열 방에 값을 입력 
+		arr1[0][0] = 10; 
+		arr1[0][1] = 20; 
+		arr1[0][2] = 30; 
+		arr1[1][0] = 40; 
+		arr1[1][1] = 50; 
+		arr1[1][2] = 60; 
+		
+//		arr1[1][3] = 70;   // 실행시 오류 발생 : 없는 방번호 <== 주의 
+						   //ArrayIndexOutOfBoundsException
+		
+		//3. 출력 4가지 방법 
+		//3-1 System.out.println() 
+		System.out.println("== System.out.println() == ");
+		System.out.println(arr1[0][0]);
+		System.out.println(arr1[0][1]);
+		System.out.println(arr1[0][2]);
+		System.out.println(arr1[1][0]);
+		System.out.println(arr1[1][0]);
+		System.out.println(arr1[1][0]);
+
+	}
+}

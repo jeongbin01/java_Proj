@@ -1,0 +1,22 @@
+package chap04.EX01;
+
+public class IF_Statement2 {
+
+	public static void main(String[] args) {
+		// 스캐너로 봄. 여름. 가을. 겨울을 입력 받아서 각 계절의 정보를 출력 하는 프로그램 
+		
+		// 기본 자료형 : 변수와 값이 모두 stack 공간에 저장됨 , byte, short, int ,long, char, boolean, double, float, 
+		//       ==    <==  Stack 의 값을 비교 
+		// 참조 자료형 : 변수와 변수의 참조주소 가 Stack 공간에 저장이 되고, 값은  Heap 공간에 저장됨. String 참조 자료형, 첫자를 대문자로 시작 
+		// 
+		
+		int a = 10 ; 
+		int b = 20 ; 
+		
+		System.out.println(a = b);     
+		
+		
+
+	}
+
+}

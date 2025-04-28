@@ -1,0 +1,10 @@
+package chap05.EX01;
+
+public class Array_Definition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

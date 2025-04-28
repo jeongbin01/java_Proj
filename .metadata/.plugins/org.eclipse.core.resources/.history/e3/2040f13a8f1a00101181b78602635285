@@ -1,0 +1,10 @@
+package chap06.EX03;
+
+public class Class_VS_Object02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

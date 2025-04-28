@@ -1,0 +1,45 @@
+package chap06.EX03;
+
+class Animal{
+	//1. 필드 
+	String animalName; 
+	String animalEat; 
+	int animalAge; 
+	
+	//2. 생성자 :  기본 생성자는 다른 생성자가 없을때 생략가능 
+	// Animal(){}
+	
+	//3. 메소드 
+	void printAll () {
+		System.out.println("동물 이름 : " + animalName + ", 동물 먹이 : " + animalEat + 
+				", 동물 나이 : " + animalAge);
+	}
+	
+}
+
+public class Class_VS_Object02 {
+	public static void main(String[] args) {
+		//1. 객체 생성 : Class => 객체 
+		Animal animal1 = new Animal();  //기본 생성자 호출 : 생략 되어 있다. 
+		//2. 메소드 호출 
+		animal1.printAll();
+		
+		//3. 객체 필드에 직접 값 입력 
+		animal1.animalName="호랑이"; 
+		animal1.animalEat="고기"; 
+		animal1.animalAge=10; 
+		
+		animal1.printAll();
+		
+		Animal animal2 = new Animal(); 
+		animal2.animalName="독수리"; 
+		animal2.animalEat="고기"; 
+		animal2.animalAge=20; 
+		
+		animal2.printAll();
+		
+		
+
+	}
+
+}

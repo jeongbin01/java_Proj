@@ -1,0 +1,19 @@
+package chap05.LAB;
+
+public class Arrry4_LAB {
+	public static void main(String[] args) {
+		/* arr[4][40] 
+			arr[0] = 7의 배수를 입력
+			arr[1] = 9의 배수를 입력
+			arr[2] = 13의 배수 입력
+			arr[3] = 15의 배수를 입력 
+			
+			arr[0] 7의 배수의 합 : sum , 평균 : avg 
+			arr[1] 9의 배수의 합 : sum , 평균 : avg 
+			arr[2] 13의 배수의 합 : sum , 평균 : avg 
+			arr[15] 15의 배수의 합 : sum , 평균 : avg 
+			
+			완료시간 : 4시 20분 
+		 */
+	}
+}

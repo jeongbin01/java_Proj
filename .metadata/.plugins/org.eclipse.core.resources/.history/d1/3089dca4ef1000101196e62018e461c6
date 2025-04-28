@@ -1,0 +1,11 @@
+package chap05.LAB;
+
+public class Array_LAB {
+	public static void main(String[] args) {
+		// arr1 배열 변수에 방 100개 생성, 2의 배수의 값을 입력 : 0 ~ 99 방 
+		// for 문으로 출력,  enhanced  for 문으로출력, Arrays.toString()으로 출력 
+		
+		
+
+	}
+}

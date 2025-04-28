@@ -1,0 +1,65 @@
+package chap06.EX04;
+
+class Fluit {
+	//1.  필드 선언 
+	String fluitName ; 
+	String fluitColor; 
+	int fluitCnt; 
+	
+	//2. 생성자 : 객체를 생성시 new 생성자, 필드의 초기값을 할당 할때 사용, 다른 생성자가 존재할때는 기본생성자는 명시 
+	Fluit(){}   //기본 생성자 
+	Fluit(String fluitName, String fluitColor, int fluitCnt){
+		this.fluitName=fluitName; 
+		this.fluitColor= fluitColor; 
+		this.fluitCnt=fluitCnt; 
+	}
+	
+	//3. 메소드 : setter <= 필드의 값을 주입할때 사용 
+	void setFluitName(String fluitName) {
+		this.fluitName=fluitName; 
+	}
+	void setFluitColor(String fluitColor) {
+		this.fluitColor=fluitColor; 
+	}
+	void setFluitCnt(int fluitCnt) {
+		this.fluitCnt=fluitCnt; 
+	}
+	//메소드 : getter <= 필드의 값을 가지고 올때 사용됨 
+	String getFluitName() {
+		return fluitName; 
+	}
+	String getFluitColor() {
+		return fluitColor; 
+	}
+	int getFluitCnt() {
+		return fluitCnt; 
+	}
+	
+	void printAll () {
+		System.out.println("과일명 : " + fluitName + ", 과일 색깔 : " + fluitColor + 
+				", 과일 갯수 : " + fluitCnt);
+	}
+	
+	
+}
+
+public class Field_Initialize {
+	public static void main(String[] args) {
+		// 객체 필드의 값을 할당하는 방법 3가지 : 
+			//1. 생성자를 통한 초기값 할당, 2. 필드에 직접 값할당, 3. setter 를 통한 값할당. 
+		
+		//1. 객체 생성 : 1. 생성자를 이용한 필드의 값 할당. 
+		Fluit fluit1 = new Fluit("바나나", "노란색", 10); 
+		fluit1.printAll();
+		
+		//2. 객체 생성 : 2. 필드의 직접 값할당
+		Fluit fluit2 = new Fluit(); 
+		fluit2.printAll();
+		fluit2.fluitName = "딸기"; 
+		fluit2.fluitColor="빨간색"; 
+		fluit2.fluitCnt=20; 
+		fluit2.printAll();
+
+	}
+
+}

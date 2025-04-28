@@ -1,0 +1,12 @@
+package chap04.LAB;
+
+public class Label_LAB {
+
+	public static void main(String[] args) {
+		// 구구단 출력 , 홀수단 만 출력하되  continue, break를 사용해서 , 단은 1씩증가 
+		
+		
+
+	}
+
+}
